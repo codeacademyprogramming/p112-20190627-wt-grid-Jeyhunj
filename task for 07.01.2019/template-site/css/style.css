@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+}
+
+body {
+    background-image: url(../img/malte-wingen-381988-1920x1280.jpg);
+    background-size: cover;
+}
+
+.center-item {
+    margin-top: 70px
+}

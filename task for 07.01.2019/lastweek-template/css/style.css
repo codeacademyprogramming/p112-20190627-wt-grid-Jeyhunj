@@ -1,0 +1,306 @@
+ 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+.btn-email {
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+
+
+.btn {
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    display: inline-block;
+}  
+
+}
+
+.input-email {
+    padding: 10px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.form-email {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+.form-email .input-email{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.3;
+}
+
+.section-main {
+    padding: 100px 0;
+}
+
+
+
+.bg-gray {
+    background-color: #f8f9fa;
+}
+
+
+header div nav {   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.site-logo a {
+    color: #000;
+    font-size: 20px;
+}
+
+header div nav .sign-in a {
+    padding: 10px 15px;
+}
+
+
+#section-intro {
+    position: relative;
+    padding: 200px 0; 
+    background-image: url("../img/bg-intro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#section-intro h1 {
+    color: #fff;
+    font-size: 50px;
+    width: 80%;
+    margin:0 auto 40px;
+}
+
+#section-icons{
+    background-color: #f8f9fa}
+
+.icons {
+    display: flex;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+}
+
+.icons .icons-item {
+    padding: 0 30px;
+    cursor: pointer;
+    height: 10rem;
+}
+
+
+.icons .icons-item:hover i {
+    font-size: 75px;
+}
+.icons .icons-item i {
+    font-size: 70px;
+    color: #007bff
+}
+
+.icons .icons-item h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+.icons .icons-item p {
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.info-row{
+    display: flex;
+}
+
+.info-item {
+    width: 50%;
+    height: 350px;
+}
+
+.info-content {
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.info-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.info-image {  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+
+
+
+
+
+
+.info-row:nth-child(even) .info-content {
+    order: 2;
+}
+
+#feedback-sec h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 90px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+}
+.feedback-sec .feedback-item {
+    flex: 1;
+}
+.feedback .feedback-item img {
+   width: 150px;
+   height: 150px;
+   border-radius: 100%;
+   cursor: pointer;
+   
+}
+.feedback-sec{
+    background-color: rgb(100, 100, 100;)
+}
+
+.last-img {
+    background-image: url(../img/last-img.jpg);
+}
+
+
+
+.info-row:nth-child(1) .info-image{
+    background-image: url(../img/1.jpg);
+}
+.info-row:nth-child(2) .info-image{
+    background-image: url(../img/2.jpg);
+}
+.info-row:nth-child(3) .info-image{
+    background-image: url(../img/3.jpg);
+}
+#margin{
+    margin-bottom: 20px;
+}
+
+.feedback .feedback-item img:hover {
+    width: 150px;
+    height: 150px;
+   box-shadow: 0 5px 5px rgb(100, 100, 100);
+}
+
+
+.feedback .feedback-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 15px 0;   
+}
+.feedback .feedback-item p {
+  font-weight: 300;
+}
+
+.container-footer{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+footer ul li{ 
+    display: inline;
+    padding: 15px;
+    
+}
+
+#section-sign-up{
+    position: relative;
+    background-color: #343a40;
+    background: url(../img/last-img.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    margin-bottom: 64px
+}
+
+#reserved{
+    color: #343a40
+}
+
+ul li a {
+    color: rgb(0, 38, 255)
+}
+
+.footer-sign {
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.input-email2 {
+    height: calc(1.5em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    width: 430px;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.container-footer {
+    height: 64px;
+}
